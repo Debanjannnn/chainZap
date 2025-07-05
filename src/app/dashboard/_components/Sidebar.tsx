@@ -76,7 +76,8 @@ export function SidebarDemo({ children, onSectionChange }: { children: React.Rea
             {/* Enhanced Wallet Section */}
             <div className="relative">
               {/* Main wallet container */}
-              <div className="relative bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl p-4 shadow-2xl hover:shadow-[0_0_30px_rgba(223,80,15,0.3)] transition-all duration-300 hover:border-white/20">
+              <div className="relative bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl p-4 shadow-2xl hover:shadow-[0_0_30px_rgba(223,80,15,0.3)] transition-all duration-300 hover:border-white/20"
+              >
                 {/* Header */}
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-3">
@@ -92,7 +93,7 @@ export function SidebarDemo({ children, onSectionChange }: { children: React.Rea
                   </div>
                   {/* Status indicator */}
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
+                    <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                     <span className="text-xs text-white/60">Ready</span>
                   </div>
                 </div>
@@ -125,7 +126,10 @@ export const Logo = () => {
   return (
     <a
       href="#"
-      className="relative z-20 flex items-center space-x-3 py-4 px-4 mb-6 rounded-2xl bg-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-white/10"
+      className="relative z-20 flex items-center space-x-3 py-4 px-4 mb-6 rounded-2xl bg-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-white/10"style={{
+        background: "linear-gradient(135deg, #bb1b0b 0%, #c43a24 40%, #d45a3d 70%)",
+      }}
+
     >
       <img src="https://i.pinimg.com/736x/49/b3/4c/49b34c656d327c34137701edfc7bc6ae.jpg" alt="ChainZap" className="h-7 w-8 shrink-0 rounded-xl bg-white/20 backdrop-blur-sm border border-white/10" />
       
