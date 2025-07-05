@@ -38,6 +38,7 @@ export default function WillManager() {
   const { client } = useWalletClient()
   const abiClient = client?.useABI(WILL_ABI)
   const ownerAddress = account?.address?.toStringLong() || ""
+  //@ts-ignore
 
   const [tab, setTab] = useState("yourWill")
   const [recipient, setRecipient] = useState("")
