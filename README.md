@@ -285,10 +285,18 @@ App runs at [http://localhost:3000](http://localhost:3000).
 
 ---
 
-**Ready to plan your legacy? Try ChainZap today, and stay tuned for the next evolution of trustless digital inheritance!**
----
-## Troubleshooting & FAQ
+## Developer Contact Info
 
+For questions, support, or contributions, contact:
+
+- Debanjan Mondal — debanjanmondalk2005@gmail.com — [GitHub](https://github.com/Debanjannnn)
+- Kaushik Samadder — kaushiksamadder2003work@gmail.com — [GitHub](https://github.com/Kaushik2003)
+
+---
+
+## **Ready to plan your legacy? Try ChainZap today, and stay tuned for the next evolution of trustless digital inheritance!**
+
+## Troubleshooting & FAQ
 
 **Wallet not connecting?**
 
